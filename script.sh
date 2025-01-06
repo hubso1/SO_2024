@@ -13,4 +13,3 @@ filename="Report_${time}.txt"
     echo
 } > "$filename"
 echo "Plik o nazwie $filename został zapisany w $(pwd)."
-
