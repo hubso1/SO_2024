@@ -42,3 +42,5 @@ foreach ($ip in $ipAddresses) {
 $results | Export-Excel -Path $outputFile -WorksheetName "Wyniki" -AutoSize
 
 Write-Host "Wyniki zapisano do pliku $outputFile." -ForegroundColor Green
+
+## Install-Module -Name ImportExcel -Scope CurrentUser
